@@ -1,0 +1,24 @@
+body {
+  max-width: 680px;
+  margin: 0 auto;
+  font-family: "Work Sans", sans-serif;
+}
+
+header,
+footer {
+  background-color: rgb(26, 67, 171);
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: Merriweather, serif;
+  letter-spacing: 2px;
+}
+
+img {
+  border-radius: 10px;
+}
