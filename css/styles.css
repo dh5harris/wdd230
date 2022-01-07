@@ -1,17 +1,32 @@
 body {
-  max-width: 680px;
+  max-width: 600px;
   margin: 0 auto;
   font-family: "Work Sans", sans-serif;
+}
+
+header {
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+  display: grid;
+  grid-gap: 1em;
+  padding: 10px;
+}
+
+footer {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-gap: 1em;
 }
 
 header,
 footer {
   background-color: rgb(26, 67, 171);
   color: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1em;
-  border-radius: 20px;
+  border-radius: 15px;
+}
+
+h2 {
+  padding-left: 10px;
 }
 
 h1 {
@@ -21,4 +36,8 @@ h1 {
 
 img {
   border-radius: 10px;
+}
+
+p {
+  padding-left: 10px;
 }
