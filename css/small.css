@@ -1,0 +1,50 @@
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 10px;
+}
+
+header {
+  padding: 10px;
+}
+
+footer {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-gap: 1em;
+}
+
+header,
+footer {
+  background-color: rgb(26, 67, 171);
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+h2 {
+  padding-left: 10px;
+  font-size: 1.25em;
+}
+
+h1 {
+  font-family: Merriweather, serif;
+  letter-spacing: 2px;
+  font-size: 1.75em;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  header,
+  footer {
+    display: block;
+  }
+}

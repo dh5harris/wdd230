@@ -1,0 +1,32 @@
+@media screen and (min-width: 32.5em) {
+  header,
+  footer {
+    display: block;
+    border-radius: 15px;
+  }
+
+  header {
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    display: grid;
+    grid-gap: 1em;
+  }
+
+  footer {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 1em;
+  }
+
+  img {
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+}
