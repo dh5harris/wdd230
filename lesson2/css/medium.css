@@ -3,18 +3,7 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  /* header,
-  footer {
-    border-radius: 10px 10px 0 0;
-  } */
-
   main section:nth-child(3) {
     grid-column: span 2;
-  }
-
-  footer {
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-    grid-gap: 1em;
   }
 }
