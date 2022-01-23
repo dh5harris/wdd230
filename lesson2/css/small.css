@@ -30,6 +30,8 @@ section {
 img {
   padding: 1em 0;
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 div {
