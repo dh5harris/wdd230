@@ -13,12 +13,12 @@ h4,
 h5,
 h6 {
   font-family: "Marcellus SC", serif;
+  color: #2d3142;
 }
 
 header,
 footer {
   background-color: #b0d7ff;
-  color: #2d3142;
   padding: 0.5rem;
 }
 
@@ -37,6 +37,10 @@ nav a {
   display: block;
   text-align: center;
   color: #2d3142;
+}
+
+nav {
+  padding-top: 5px;
 }
 
 a:hover {
