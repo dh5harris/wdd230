@@ -47,7 +47,8 @@ nav {
 }
 
 a:hover {
-  background-color: #bfbec5;
+  color: white;
+  background-color: #7380b9;
 }
 
 img {
