@@ -1,3 +1,88 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 0.5rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Marcellus SC", serif;
+  color: #2d3142;
+  margin: 0;
+  padding: 0.8rem;
+}
+
+#logoBox {
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.small {
+  display: none;
+}
+
+header,
+footer {
+  background-color: #b0d7ff;
+  padding: 0.5rem;
+}
+
 nav {
   background-color: chartreuse;
+}
+
+footer {
+  text-align: center;
+}
+
+.assignmentFooter {
+  border-top: 1px solid grey;
+  font-size: 0.75rem;
+}
+
+.placeholderBox {
+  border: 1px solid grey;
+  background-color: #eae8ff;
+  height: 10em;
+  padding: 5px;
+}
+
+main {
+  background-color: #eae8ff;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 15px;
+}
+
+.spotlightBoxMain {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.spotlightBox {
+  border: 1px solid grey;
+  flex: 1 1 auto;
+}
+
+.spotlightBox:nth-child(3) {
+  display: none;
+}
+
+.navigation {
+  list-style: none;
+  margin: 0;
+}
+
+.navigation a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
 }
