@@ -24,10 +24,6 @@ h6 {
   align-items: center;
 }
 
-.small {
-  display: none;
-}
-
 header,
 footer {
   background-color: #b0d7ff;
@@ -42,6 +38,17 @@ footer {
   text-align: center;
 }
 
+main {
+  background-color: #eae8ff;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 15px;
+}
+
+.small {
+  display: none;
+}
+
 .assignmentFooter {
   border-top: 1px solid grey;
   font-size: 0.75rem;
@@ -52,13 +59,6 @@ footer {
   background-color: #eae8ff;
   height: 10em;
   padding: 5px;
-}
-
-main {
-  background-color: #eae8ff;
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 15px;
 }
 
 .spotlightBoxMain {
@@ -79,6 +79,7 @@ main {
 .navigation {
   list-style: none;
   margin: 0;
+  padding: 0.5em;
 }
 
 .navigation a {
