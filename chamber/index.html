@@ -25,28 +25,32 @@
   </head>
   <body>
     <header>
-      <div id="logoBox">
-        <img
-          src="images/lesson3project.png"
-          alt="Paducah Chamber of Commerce logo"
-          width="125"
-        />
-        <h1>Paducah Chamber<span class="small"> of Commerce</span></h1>
-        <a href="https://www.facebook.com/"><img src="images/icons8-facebook-48.png" width="40"/></a></i>
-        <a href="https://www.linkedin.com/"><img src="images/icons8-linkedin-48.png" width="40"/></a>
-      </div>
-      <nav>
-        <ul class="navigation">
-          <li><a href="#" class="hambugerBtn">Menu</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Discover</a></li>
-          <li><a href="#">Directoy</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <div id="today">
-        <span>date</span>
+      <section class="heading">
+        <div class="logoBox">
+          <img
+            src="images/lesson3project.png"
+            alt="Paducah Chamber of Commerce logo"
+            width="100"
+          />
+          <h1>Paducah Chamber<span class="small"> of Commerce</span></h1>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/"><img src="images/icons8-facebook-48.png" width="40"/></a></i>
+          <a href="https://www.linkedin.com/"><img src="images/icons8-linkedin-48.png" width="40"/></a>
+        </div>
+        <nav class="menu">
+          <button class="hambugerBtn" type="button" aria-label="Menu" aria-controls="Nav">&#9776</button>
+          <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+    </section>
+      <div class="today">
+        <span id="today">date</span>
       </div>
     </header>
     <main>
@@ -61,24 +65,31 @@
       </div>
     </main>
     <footer>
-      <div></div>
-      <img
-        src="images/lesson3project.png"
-        alt="Paducah Chamber of Commerce logo"
-        width="100"
-      />
-      <p>Paducah Chamber of Commerce</p>
-      <p>300 S 3rd Street</p>
-      <p>Paducah, KY 42003</p>
-      <p>info@paducahchamber.org</p>
-      <p>(270) 443-1746</p>
-      <div class="map">Location Map</div>
+      <div class="footer">
+        <div class="address">
+          <div class="logo">
+            <img
+              src="images/lesson3project.png"
+              alt="Paducah Chamber of Commerce logo"
+              width="150"
+            />
+          </div> 
+          <div class="addressBox">
+            <p>Paducah Chamber of Commerce</p>
+            <p>300 S 3rd Street</p>
+            <p>Paducah, KY 42003</p>
+            <p>info@paducahchamber.org</p>
+            <p>(270) 443-1746</p>
+          </div>
+        </div>
+        <div class="map">Location Map</div>
+      </div>
       <div class="assignmentFooter">
         <p>
-          &copy; <span id="currentyear">2022?</span> Paducah Chamber of Commerce
+          &copy; <span id="currentyear">2022?</span> Paducah Chamber of Commerce<span class="small"> |</span>
         </p>
-        <p>Daniel W. Harris</p>
-        <p>WDD 230 Project</p>
+        <p><strong>Daniel W. Harris</strong><span class="small"> |</span></p>
+        <p>WDD 230 Project <span class="small"> |</span></p>
         <p>Last updated: <span id="lastupdate">By the due date</span></p>
       </div>
     </footer>

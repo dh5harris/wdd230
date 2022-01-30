@@ -13,7 +13,7 @@ h4,
 h5,
 h6 {
   font-family: "Marcellus SC", serif;
-  color: #2d3142;
+  color: rgb(45 49 66);
   margin: 0;
   padding: 0.8rem;
 }
@@ -26,12 +26,8 @@ h6 {
 
 header,
 footer {
-  background-color: #b0d7ff;
+  background-color: rgba(155, 205, 255, 1);
   padding: 0.5rem;
-}
-
-nav {
-  background-color: chartreuse;
 }
 
 footer {
@@ -39,10 +35,30 @@ footer {
 }
 
 main {
-  background-color: #eae8ff;
+  background-color: rgba(234, 232, 255, 1);
   display: grid;
   grid-template-columns: auto;
   grid-gap: 15px;
+}
+
+.heading {
+  display: flex;
+  height: 10em;
+}
+
+.logoBox {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  justify-content: center;
+  flex: 1 1 auto;
+}
+
+.menu {
+  flex: 1 1 auto;
 }
 
 .small {
@@ -55,8 +71,8 @@ main {
 }
 
 .placeholderBox {
-  border: 1px solid grey;
-  background-color: #eae8ff;
+  border: 1px solid rgba(191, 190, 197, 0.8);
+  background-color: rgba(234, 232, 255, 1);
   height: 10em;
   padding: 5px;
 }
@@ -68,7 +84,7 @@ main {
 }
 
 .spotlightBox {
-  border: 1px solid grey;
+  border: 1px solid rgba(191, 190, 197, 0.8);
   flex: 1 1 auto;
 }
 
@@ -76,14 +92,52 @@ main {
   display: none;
 }
 
+.logoBox h1 {
+  font-size: 1.2em;
+}
+
 .navigation {
   list-style: none;
   margin: 0;
-  padding: 0.5em;
+  padding: 0;
+}
+
+.navigation li {
+  display: none;
 }
 
 .navigation a {
   display: block;
   text-decoration: none;
   text-align: center;
+  color: rgb(45 49 66);
+  padding: 0.8em;
+}
+
+.navigation a:hover {
+  color: white;
+  background-color: rgb(115 128 185);
+}
+
+.today {
+  text-align: center;
+  padding: 0.6em;
+  background-color: rgba(176, 215, 255, 0.5);
+  border: 1px solid rgba(191, 190, 197, 0.8);
+}
+
+/* Hamburger button */
+.hambugerBtn {
+  /* border: 5px solid rgba(191, 190, 197, 0.8); */
+  padding: 0.5em;
+  position: absolute;
+  right: 25px;
+}
+
+.responsive li {
+  display: block;
+}
+
+.footer {
+  display: block;
 }

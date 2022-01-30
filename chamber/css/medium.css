@@ -1,5 +1,27 @@
 @media screen and (min-width: 32em) {
-  nav {
-    background-color: coral;
+  .small {
+    display: inline;
+  }
+
+  .assignmentFooter {
+    padding-top: 0.75em;
+  }
+
+  .assignmentFooter p {
+    display: inline;
+  }
+
+  .assignmentFooter p:nth-child(4) {
+    display: block;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .address {
+    display: flex;
   }
 }
