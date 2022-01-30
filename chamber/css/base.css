@@ -37,8 +37,7 @@ footer {
 main {
   background-color: rgba(234, 232, 255, 1);
   display: grid;
-  grid-template-columns: auto;
-  grid-gap: 15px;
+  grid-gap: 0.75em;
 }
 
 .heading {
@@ -80,6 +79,10 @@ main {
   background-color: rgba(234, 232, 255, 1);
   height: 10em;
   padding: 5px;
+}
+
+.placeholderBox:nth-child(5) {
+  display: none;
 }
 
 .spotlightBoxMain {
