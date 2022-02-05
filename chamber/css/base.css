@@ -18,10 +18,22 @@ h6 {
   padding: 0.8rem;
 }
 
+h2 {
+  background-color: rgba(191, 190, 197, 1);
+}
+
 #logoBox {
   font-size: 0.6rem;
   display: flex;
   align-items: center;
+}
+
+#joinBanner {
+  display: none;
+  text-align: center;
+  color: white;
+  background-color: rgb(45 49 66);
+  padding: 1em;
 }
 
 header,
@@ -74,11 +86,95 @@ main {
   font-size: 0.75rem;
 }
 
+.hero img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero h3 {
+  color: white;
+  padding: 0;
+}
+
+.hero {
+  position: relative;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.hero h2 {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 0 0 15px 0;
+}
+
+.joinBox {
+  display: block;
+  position: absolute;
+  background-color: rgba(45, 49, 66, 0.8);
+  right: 35px;
+  bottom: 35px;
+  border-radius: 15px;
+  border: 1px solid rgba(234, 232, 255, 1);
+}
+
+.joinBox a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.8em;
+}
+
+.joinBox a:hover {
+  background-color: white;
+  color: rgba(45, 49, 66, 1);
+  border: 1px solid rgba(45, 49, 66, 1);
+  border-radius: 15px;
+}
+
+.event a {
+  text-decoration: none;
+  color: blue;
+}
+
+.join h2 {
+  background-color: rgba(45, 49, 66, 1);
+  border-radius: 15px;
+
+  margin: 0;
+  padding: 0;
+}
+
+.join a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.join a:hover {
+  background-color: white;
+  color: rgba(45, 49, 66, 0.8);
+  border: 2px solid rgba(45, 49, 66, 1);
+  padding: 8px;
+  border-radius: 15px;
+}
+
 .placeholderBox {
-  border: 1px solid rgba(191, 190, 197, 0.8);
+  border: 1px solid rgba(191, 190, 197, 1);
   background-color: rgba(234, 232, 255, 1);
-  height: 10em;
+  /* height: 10em; */
   padding: 5px;
+  text-align: center;
+}
+
+.info,
+.wind {
+  font-size: 0.8em;
+  border-top: 1px solid rgba(191, 190, 197, 1);
 }
 
 .placeholderBox:nth-child(5) {
