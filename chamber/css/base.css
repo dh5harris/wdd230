@@ -53,28 +53,25 @@ main {
 }
 
 .heading {
-  display: flex;
-  height: 10em;
+  display: grid;
+  grid-template-columns: 100px auto;
 }
 
 .logoBox {
-  flex: 1 1 auto;
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: inherit;
 }
 
-.nav {
-  flex: 1 1 auto;
-  display: flex;
+.active {
+  border-bottom: 2px solid rgba(45, 49, 66, 1);
 }
 
 .social {
-  justify-content: center;
-  flex: 1 1 auto;
+  grid-column: -1;
 }
 
-.menu {
-  flex: 1 1 auto;
+.social a {
+  display: inline-block;
 }
 
 .small {
@@ -233,9 +230,13 @@ main {
 /* Hamburger button */
 .hambugerBtn {
   /* border: 5px solid rgba(191, 190, 197, 0.8); */
-  padding: 0.5em;
-  position: absolute;
-  right: 25px;
+  padding: 0.8em;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5em;
+
+  /* position: absolute;
+  right: 25px; */
 }
 
 .responsive li {

@@ -1,7 +1,7 @@
 @media screen and (min-width: 45em) {
-  body {
+  /* body {
     max-width: 60em;
-  }
+  } */
   .navigation {
     display: flex;
   }
@@ -10,6 +10,22 @@
     display: block;
     flex: 1 1 auto;
     align-items: center;
+  }
+
+  .heading {
+    grid-template-columns: auto;
+  }
+
+  .logoBox {
+    grid-column: 1/2;
+  }
+
+  .menu {
+    grid-column: 2/3;
+  }
+
+  .social {
+    grid-column: 3/4;
   }
 
   .assignmentFooter p:nth-child(4) {
