@@ -228,9 +228,20 @@ main {
   border: none;
   background-color: transparent;
   font-size: 1.5em;
+}
 
-  /* position: absolute;
-  right: 25px; */
+.hambugerBtn span:nth-child(1) {
+  display: block;
+}
+.hambugerBtn span:nth-child(2) {
+  display: none;
+}
+
+.hambugerBtn.responsive span:nth-child(1) {
+  display: none;
+}
+.hambugerBtn.responsive span:nth-child(2) {
+  display: block;
 }
 
 .responsive li {
