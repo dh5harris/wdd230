@@ -22,12 +22,6 @@ h2 {
   background-color: rgba(191, 190, 197, 1);
 }
 
-#logoBox {
-  font-size: 0.6rem;
-  display: flex;
-  align-items: center;
-}
-
 #joinBanner {
   display: none;
   text-align: center;
@@ -54,12 +48,12 @@ main {
 
 .heading {
   display: grid;
-  grid-template-columns: 100px auto;
+  grid-template-columns: 80px auto;
 }
 
 .logoBox {
-  display: grid;
-  grid-template-columns: inherit;
+  display: flex;
+  align-items: flex-start;
 }
 
 .active {
@@ -194,7 +188,7 @@ main {
 }
 
 .logoBox h1 {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .navigation {
