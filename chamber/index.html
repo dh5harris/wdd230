@@ -42,7 +42,7 @@
         </nav>
         <div class="logoBox">
           <img
-            src="images/lesson3project.png"
+            src="images/chamberlogo.webp"
             alt="Paducah Chamber of Commerce logo"
             width="90"
           />
@@ -69,11 +69,27 @@
     </header>
     <main>
       <div class="placeholderBox hero">
-        <img
-          width="500"
-          src="images/paducahKyBroadway.jpg"
-          alt="Downtown Paducah, Kentucy, looking up Broadway"
-        />
+        <picture
+          ><source
+            media="(min-width: 720px)"
+            srcset="images/wdd230-large.jpg" />
+          <source
+            media="(min-width: 512px)"
+            srcset="images/wdd230-medium.jpg" />
+          <img
+            width="500"
+            src="images/wdd230-small.jpg"
+            alt="Group meeting in the office"
+        /></picture>
+        <!-- <picture
+          ><source
+            media="(min-width: 720px)"
+            srcset="images/paducahKyBroadway-375x480.jpg" />
+          <img
+            width="500"
+            src="images/paducahKyBroadway-480x419.jpg"
+            alt="Downtown Paducah, Kentucky, looking up Broadway"
+        /></picture> -->
         <h2 class="welcome">Welcome<span class="small"> to Paducah</span></h2>
         <section>
           <h3 class="joinBox">
@@ -94,11 +110,11 @@
       <div class="placeholderBox weather">
         <section>
           <h2>Weather</h2>
-          <h3>72&deg;F</h3>
+          <h3><span id="temperature">42</span>&#176;F</h3>
           <p>Sunny</p>
           <div class="wind">
-            <p>Wind Speed: 5mi/h</p>
-            <p>Wind Chill: N/A</p>
+            <p>Wind Speed: <span id="windSpeed">5</span> mph</p>
+            <p>Wind Chill: <span id="windChill"></span></p>
           </div>
         </section>
       </div>
@@ -147,7 +163,7 @@
             <p>"That is what they say!"</p>
           </section>
           <div class="info">
-            <p>tellme@email.com</p>
+            <p>tellmethegossip@email.com</p>
             <p>Phone (098)555-4321</p>
           </div>
         </div>
@@ -158,20 +174,25 @@
         <div class="address">
           <div class="logo">
             <img
-              src="images/lesson3project.png"
+              src="images/chamberlogo.webp"
               alt="Paducah Chamber of Commerce logo"
               width="150"
             />
           </div>
-          <div class="addressBox">
+          <address class="addressBox">
             <p>Paducah Chamber of Commerce</p>
             <p>300 S 3rd Street</p>
             <p>Paducah, KY 42003</p>
-            <p>info@paducahchamber.org</p>
-            <p>(270) 443-1746</p>
-          </div>
+          </address>
         </div>
-        <div class="map">Location Map</div>
+        <div class="map">
+          <p>info@paducahchamber.org</p>
+          <p>(270) 443-1746</p>
+          <p></p>
+          <a href="https://goo.gl/maps/C6J38FQAvhYHXqUcA"
+            >&#128204; Location Map</a
+          >
+        </div>
       </div>
       <div class="assignmentFooter">
         <p>
@@ -184,5 +205,6 @@
       </div>
     </footer>
     <script src="js/date.js"></script>
+    <script src="js/windchill.js"></script>
   </body>
 </html>
