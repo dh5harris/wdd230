@@ -170,7 +170,6 @@ main {
 .placeholderBox {
   border: 1px solid rgba(191, 190, 197, 1);
   background-color: rgba(234, 232, 255, 1);
-  /* height: 10em; */
   padding: 5px;
   text-align: center;
 }
@@ -236,7 +235,6 @@ main {
 
 /* Hamburger button */
 .hambugerBtn {
-  /* border: 5px solid rgba(191, 190, 197, 0.8); */
   padding: 0.8em;
   border: none;
   background-color: transparent;
