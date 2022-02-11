@@ -41,7 +41,7 @@ footer {
 }
 
 main {
-  background-color: rgba(234, 232, 255, 1);
+  padding: 0.5rem;
   display: grid;
   grid-gap: 0.75em;
 }
@@ -67,6 +67,7 @@ main {
 .logoBox {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-end;
 }
 
 .active {
@@ -168,7 +169,7 @@ main {
 }
 
 .placeholderBox {
-  border: 1px solid rgba(191, 190, 197, 1);
+  border: 1px solid rgba(20, 0, 140, 1);
   background-color: rgba(234, 232, 255, 1);
   padding: 5px;
   text-align: center;
@@ -231,6 +232,8 @@ main {
   padding: 0.6em;
   background-color: rgba(176, 215, 255, 0.5);
   border: 1px solid rgba(191, 190, 197, 0.8);
+  max-width: 69em;
+  margin: 0 auto;
 }
 
 /* Hamburger button */
