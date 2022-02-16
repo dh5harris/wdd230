@@ -67,7 +67,7 @@ main {
 .logoBox {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-end;
+  /* justify-content: center; */
 }
 
 .active {
@@ -202,6 +202,7 @@ main {
 
 .logoBox h1 {
   font-size: 1em;
+  padding: 0.8rem 0;
 }
 
 .navigation {
