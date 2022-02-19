@@ -40,7 +40,7 @@ footer {
   text-align: center;
 }
 
-main {
+.home {
   padding: 0.5rem;
   display: grid;
   grid-gap: 0.75em;
@@ -68,6 +68,49 @@ main {
   display: flex;
   align-items: flex-start;
   /* justify-content: center; */
+}
+
+.screenreader-text {
+  position: absolute;
+  left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+}
+
+.screenreader-text:focus {
+  color: black;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
+}
+
+.card {
+  width: 14em;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px 1px #888;
+  overflow: hidden;
+  line-height: 1.5em;
+}
+
+.card p {
+  padding: 0.8em;
+  border-top: 1px solid rgba(191, 190, 197, 1);
+}
+
+.card img {
+  width: 100%;
+}
+
+.discover {
+  margin: 5px auto;
+  display: grid;
+  grid-auto-columns: auto;
+  justify-items: center;
+  gap: 1em;
 }
 
 .active {
