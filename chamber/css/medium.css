@@ -3,13 +3,9 @@
     display: inline;
   }
 
-  .discover {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .cardImg:hover {
     border-radius: 25px;
-    box-shadow: 0 0 25px 25px rgba(45, 49, 66, 1);
+    box-shadow: 0 0 25px 25px rgba(115, 128, 185, 1);
   }
 
   .assignmentFooter {

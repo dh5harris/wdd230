@@ -56,7 +56,7 @@ footer {
 
 .map a:hover {
   color: white;
-  background-color: rgb(115 128 185);
+  background-color: rgba(115, 128, 185, 1);
 }
 
 .heading {
@@ -102,15 +102,21 @@ footer {
 }
 
 .card img {
-  width: 100%;
+  width: 90%;
+  display: block;
+  margin: 0.8rem auto;
 }
 
 .discover {
-  margin: 5px auto;
+  margin: 10px auto;
   display: grid;
-  grid-auto-columns: auto;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   justify-items: center;
   gap: 1em;
+}
+
+#lastVisit {
+  text-align: center;
 }
 
 .active {
@@ -268,7 +274,7 @@ footer {
 
 .navigation a:hover {
   color: white;
-  background-color: rgb(115 128 185);
+  background-color: rgba(115, 128, 185, 1);
 }
 
 .today {
