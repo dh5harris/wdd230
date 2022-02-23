@@ -5,6 +5,11 @@
     margin: 0 auto;
   }
 
+  .discover {
+    max-width: 70em;
+    margin: 0 auto;
+  }
+
   .navigation {
     display: flex;
   }
