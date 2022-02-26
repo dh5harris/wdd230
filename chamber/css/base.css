@@ -110,6 +110,10 @@ fieldset {
 .membership-levels p {
   padding: 0.8rem;
 }
+
+textarea {
+  display: block;
+}
 /*  --- End Form styling --- */
 .home {
   padding: 0.5rem;
