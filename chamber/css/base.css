@@ -39,7 +39,78 @@ footer {
 footer {
   text-align: center;
 }
+/* --- Form styling --- */
+form {
+  margin: 0.75rem auto;
+  width: 100%;
+}
 
+.join-header {
+  text-align: center;
+}
+
+.radio {
+  padding: 5px;
+}
+
+.input {
+  display: block;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 90%;
+}
+
+.input:required {
+  border-left: 5px solid red;
+}
+
+.input:required:valid {
+  border-left: 5px solid green;
+}
+
+label {
+  padding-top: 0.8rem;
+  display: block;
+}
+
+.joinBtn {
+  border: none;
+  background-color: rgba(45, 49, 66, 0.8);
+  color: white;
+  border-radius: 5px;
+  padding: 0.8rem;
+}
+
+.joinBtn:active {
+  background-color: white;
+  color: rgba(45, 49, 66, 1);
+  border: 1px solid rgba(45, 49, 66, 1);
+}
+
+.membership {
+  padding-top: 1.2rem;
+}
+fieldset {
+  border: 2px solid rgba(191, 190, 197, 1);
+}
+
+.price {
+  color: white;
+  background-color: rgba(45, 49, 66, 1);
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.membership-levels {
+  border: 2px solid rgba(191, 190, 197, 1);
+  margin: 4px 0;
+  display: none;
+}
+
+.membership-levels p {
+  padding: 0.8rem;
+}
+/*  --- End Form styling --- */
 .home {
   padding: 0.5rem;
   display: grid;
@@ -62,12 +133,12 @@ footer {
 .heading {
   display: grid;
   grid-template-columns: 80px auto;
+  align-items: center;
 }
 
 .logoBox {
   display: flex;
-  align-items: flex-start;
-  /* justify-content: center; */
+  align-items: center;
 }
 
 .screenreader-text {
@@ -88,7 +159,7 @@ footer {
 }
 
 .card {
-  width: 14em;
+  width: 17em;
   background-color: white;
   border-radius: 5px;
   box-shadow: 1px 1px 4px 1px #888;

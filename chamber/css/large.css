@@ -1,15 +1,35 @@
 @media screen and (min-width: 45em) {
   .home {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .discover,
+  .home,
+  .heading,
+  .footer,
+  .join-page {
     max-width: 70em;
     margin: 0 auto;
   }
 
-  .discover {
-    max-width: 70em;
-    margin: 0 auto;
+  /* --- form styling */
+  .join-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
   }
 
+  .member-small {
+    display: none;
+  }
+
+  .membership-levels {
+    margin: 0.75rem auto;
+    display: block;
+    width: 100%;
+  }
+
+  /* --- form styling end --- */
   .navigation {
     display: flex;
   }
