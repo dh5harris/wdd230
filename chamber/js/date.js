@@ -10,3 +10,6 @@ document.getElementById("currentyear").textContent = date.getFullYear();
 
 // Display when the last time the document was modified
 document.getElementById('lastupdate').textContent = document.lastModified;
+
+const hiddenBtn = document.getElementById('dateTime')
+hiddenBtn.setAttribute(value, Date.now());
