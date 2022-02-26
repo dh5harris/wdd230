@@ -7,9 +7,10 @@
   .home,
   .heading,
   .footer,
-  .join-page {
+  .join-page,
+  .thank-you {
     max-width: 70em;
-    margin: 0 auto;
+    margin: 10px auto;
   }
 
   /* --- form styling */
@@ -30,6 +31,7 @@
   }
 
   /* --- form styling end --- */
+
   .navigation {
     display: flex;
   }

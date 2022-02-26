@@ -63,4 +63,19 @@
     grid-row: 5;
     grid-column: 3/4;
   }
+
+  /* --- thank you page --- */
+  .thank-you {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .thank-you img {
+    width: 100%;
+  }
+  .welcome {
+    display: grid;
+    align-content: center;
+  }
+
+  /* --- End thank you page --- */
 }
