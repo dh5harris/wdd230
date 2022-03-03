@@ -1,0 +1,44 @@
+body {
+  max-width: 65em;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main {
+  background-color: #cacaca;
+  padding: 0.5rem;
+  box-shadow: 1px 1px 15px 5px #888;
+}
+
+.cards {
+  background-color: #cacaca;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+h1,
+h2 {
+  color: navy;
+}
+h1 {
+  font-size: 2.5em;
+}
+
+section {
+  background-color: cornflowerblue;
+  border: 1px solid navy;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  box-shadow: 5px 5px 10px 1px #747474;
+}
+
+section img {
+  width: 95%;
+  border-radius: 5px;
+}
+footer {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
