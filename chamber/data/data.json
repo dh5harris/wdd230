@@ -1,0 +1,13 @@
+{
+  "businesses":[
+    {
+      "name": "",
+      "lastname": "",
+      "email": "",
+      "businessname": "",
+      "position": "",
+      "cellphone": "",
+      "membershiplevel": ""
+    }
+  ]
+}
