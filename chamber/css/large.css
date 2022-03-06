@@ -3,13 +3,12 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  /* .discover,
+  .discover,
   .home,
   .heading,
   .footer,
   .join-page,
-  .thank-you, */
-
+  .thank-you,
   main {
     max-width: 70em;
     margin: 10px auto;
@@ -34,6 +33,14 @@
 
   /* --- form styling end --- */
 
+  /* --- Directory --- */
+
+  .dir-list section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* --- Directory End */
   .navigation {
     display: flex;
   }

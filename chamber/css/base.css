@@ -124,6 +124,69 @@ input[type="radio"] {
 }
 
 /*  --- End Form styling --- */
+.view {
+  color: rgba(45, 49, 66, 1);
+  padding: 2rem;
+}
+/* --- directory buttons --- */
+.view-buttons {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+}
+.grid-view {
+  margin-right: 1rem;
+}
+
+.list-view {
+  margin-left: 1rem;
+}
+
+.bus-card {
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 2px #888;
+  line-height: 1.5em;
+}
+
+.bus-card p {
+  margin: 0;
+}
+
+.bus-card p:nth-child(2) {
+  display: none;
+}
+
+.bus-card img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.dir-list section {
+  display: block;
+  text-align: left;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+.dir-list section:nth-child(even) {
+  background-color: rgba(191, 190, 197, 1);
+}
+
+.dir-list img {
+  display: none;
+}
+
+.dir-list p:nth-child(2) {
+  display: contents;
+}
+
+/* .dir-list p {
+  margin: 0.8rem;
+} */
+
+/* ---Directory End --- */
 .home {
   padding: 0.5rem;
   display: grid;
@@ -191,7 +254,8 @@ input[type="radio"] {
   margin: 0.8rem auto;
 }
 
-.discover {
+.discover,
+.dir-cards {
   margin: 10px auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -321,6 +385,7 @@ input[type="radio"] {
   border-radius: 15px;
 }
 
+.directoryBox,
 .placeholderBox {
   border: 1px solid rgba(20, 0, 140, 1);
   background-color: rgba(234, 232, 255, 1);
@@ -415,6 +480,7 @@ input[type="radio"] {
 .responsive li {
   display: block;
 }
+/* End Hamburger button */
 
 .footer {
   display: block;
