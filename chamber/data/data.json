@@ -10,19 +10,21 @@
       "state": "KY",
       "position": "President",
       "cellphone": "(123)555-0246",
-      "membershiplevel": "non-profit"
+      "membershiplevel": "non-profit",
+      "imageurl": "images/logos/unified-way-logo.png"
     },
     {
       "name": "Jack",
       "lastname": "Sparrow",
-      "email": "contact@helpinharmy.com",
+      "email": "contact@helpingharmy.com",
       "businessname": "Helping Army",
       "address": "125 Good Dr",
       "city": "Paducah",
       "state": "KY",
       "position": "Captain",
       "cellphone": "(123)555-3591",
-      "membershiplevel": "non-profit"
+      "membershiplevel": "non-profit",
+      "imageurl": "images/logos/helping-army-logo-black.png"
     },
     {
       "name": "Frank",
@@ -34,19 +36,21 @@
       "state": "KY",
       "position": "CEO",
       "cellphone": "(123)555-1357",
-      "membershiplevel": "non-profit"
+      "membershiplevel": "non-profit",
+      "imageurl": "images/logos/humanity-homes-logo.png"
     },
     {
       "name": "Homer",
       "lastname": "Zuckerman",
       "email": "homer@Zuckemansbbq.com",
       "businessname": "Zuckerman's BBQ",
-      "address": "1000 Bbq way",
+      "address": "1000 Wilber Way",
       "city": "Paducah",
       "state": "KY",
       "position": "Owner",
       "cellphone": "(123)555-7890",
-      "membershiplevel": "gold"
+      "membershiplevel": "gold",
+      "imageurl": "images/logos/zuckermans-bbq-logo.jpg"
     },
     {
       "name": "John",
@@ -58,7 +62,8 @@
       "state": "KY",
       "position": "Owner",
       "cellphone": "(123)555-9087",
-      "membershiplevel": "gold"
+      "membershiplevel": "gold",
+      "imageurl": "images/logos/johns-excavting-logo-black.png"
     },
     {
       "name": "Jane",
@@ -70,19 +75,21 @@
       "state": "KY",
       "position": "President",
       "cellphone": "(123)555-4321",
-      "membershiplevel": "gold"
+      "membershiplevel": "gold",
+      "imageurl": "images/logos/old-lady-welch-logo.png"
     },
     {
       "name": "Charlotte",
       "lastname": "Webb",
       "email": "cwebb@baconcity.com",
       "businessname": "Bacon City",
-      "address": "1100 Bbq way",
+      "address": "1100 Wilber Way",
       "city": "Paducah",
       "state": "KY",
       "position": "CEO",
       "cellphone": "(123)555-2604",
-      "membershiplevel": "gold"
+      "membershiplevel": "gold",
+      "imageurl": "images/logos/bacon-city-logo.png"
     },
     {
       "name": "Inigo",
@@ -94,31 +101,34 @@
       "state": "KY",
       "position": "owner",
       "cellphone": "(123)555-5555",
-      "membershiplevel": "bronze"
+      "membershiplevel": "bronze",
+      "imageurl": "images/logos/montoyas-quest-logo.png"
     },
     {
       "name": "Norman",
       "lastname": "Bates",
       "email": "normanb@roomstostay.com",
       "businessname": "Rooms to Stay",
-      "address": "7101 Mothers Rd",
+      "address": "7101 Mother's Rd",
       "city": "Paducah",
       "state": "KY",
       "position": "owner",
       "cellphone": "(123)555-4567",
-      "membershiplevel": "bronze"
+      "membershiplevel": "bronze",
+      "imageurl": "images/logos/rooms-to-stay-logo.png"
     },
     {
       "name": "John",
       "lastname": "Smith",
       "email": "jsmith@justhamburgers.com",
       "businessname": "Just Hamburgers",
-      "address": "1300 Bbq Way",
+      "address": "1300 Ferdinand St",
       "city": "Paducah",
       "state": "KY",
       "position": "owner",
       "cellphone": "(123)555-1324",
-      "membershiplevel": "silver"
+      "membershiplevel": "silver",
+      "imageurl": "images/logos/just-amburgers-logo.png"
     },
     {
       "name": "Ray",
@@ -130,7 +140,8 @@
       "state": "KY",
       "position": "General Manager",
       "cellphone": "(123)555-7321",
-      "membershiplevel": "silver"
+      "membershiplevel": "silver",
+      "imageurl": "images/logos/venturas-pet-service-logo.png"
     },
     {
       "name": "Jack",
@@ -142,7 +153,8 @@
       "state": "KY",
       "position": "owner",
       "cellphone": "(123)555-8411",
-      "membershiplevel": "bronze"
+      "membershiplevel": "bronze",
+      "imageurl": "images/logos/jacks-doe-nuts-logo.png"
     }
   ]
 }
