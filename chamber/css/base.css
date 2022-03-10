@@ -399,6 +399,27 @@ input[type="radio"] {
   border-top: 1px solid rgba(191, 190, 197, 1);
 }
 
+.currentconditions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.8rem;
+}
+
+.weather p {
+  margin: 0.5rem;
+}
+
+#icon {
+  display: inline;
+  width: 6rem;
+}
+
+#temperature {
+  font-size: 1.5rem;
+  display: inline;
+}
+
 .placeholderBox:nth-child(5) {
   display: none;
 }
