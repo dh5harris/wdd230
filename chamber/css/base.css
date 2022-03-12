@@ -415,11 +415,11 @@ input[type="radio"] {
   margin: 0.5rem;
 }
 
-#icon {
+.icon {
   display: inline;
 }
 
-#temperature {
+.temperature {
   font-size: 1.5rem;
   display: inline;
 }
