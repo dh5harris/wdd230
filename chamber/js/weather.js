@@ -1,5 +1,8 @@
 const info = 'f66666e34de75c8542449d7d4931f7b6';
 
+// the div that will hold the weather icon and temperature
+const currentConditions = document.querySelector('.currentconditions');
+
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=Paducah,ky,us&units=imperial&APPID=${info}`
 
 fetch(apiURL)
@@ -7,9 +10,12 @@ fetch(apiURL)
   .then((jsObject) => {
     // console.log(jsObject);
 
+    // create an img element to hold the weather icon
+    const icon = document.createElement('img');
+    // create an p element to hold the temperature
+    const temp = document.createElement('p');
+
     // set variables from the html elements
-    const icon = document.querySelector('#icon');
-    const temp = document.querySelector('#temperature');
     const wind = document.querySelector('#windSpeed');
     const description = document.querySelector('#description');
 
@@ -18,9 +24,18 @@ fetch(apiURL)
     const windSpeed = jsObject.wind.speed;
     const weatherIcon = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const weatherDescription = jsObject.weather[0].description;
+    const degree = String.fromCodePoint(0x2109);
+
+    // add the image and p elements
+    currentConditions.appendChild(icon);
+    currentConditions.appendChild(temp);
+
+    // add classes for styling
+    icon.classList.add('icon');
+    temp.classList.add('temperature');
 
     // set html elements to the values
-    temp.textContent = currentTemp.toFixed(0);
+    temp.textContent = `${currentTemp.toFixed(0)}${degree}`;
     icon.setAttribute('src', weatherIcon);
     icon.setAttribute('alt', weatherDescription);
     description.textContent = weatherDescription;
