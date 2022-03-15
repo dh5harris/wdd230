@@ -12,7 +12,8 @@
       "position": "President",
       "cellphone": "(123)555-0246",
       "membershiplevel": "non-profit",
-      "imageurl": "images/logos/unified-way-logo.png"
+      "imageurl": "images/logos/unified-way-logo.png",
+      "motto": ""
     },
     {
       "name": "Jack",
@@ -26,7 +27,8 @@
       "position": "Captain",
       "cellphone": "(123)555-3591",
       "membershiplevel": "non-profit",
-      "imageurl": "images/logos/helping-army-logo-black.png"
+      "imageurl": "images/logos/helping-army-logo-black.png",
+      "motto": ""
     },
     {
       "name": "Frank",
@@ -40,7 +42,8 @@
       "position": "CEO",
       "cellphone": "(123)555-1357",
       "membershiplevel": "non-profit",
-      "imageurl": "images/logos/humanity-homes-logo.png"
+      "imageurl": "images/logos/humanity-homes-logo.png",
+      "motto": ""
     },
     {
       "name": "Homer",
@@ -54,7 +57,8 @@
       "position": "Owner",
       "cellphone": "(123)555-7890",
       "membershiplevel": "gold",
-      "imageurl": "images/logos/zuckermans-bbq-logo.jpg"
+      "imageurl": "images/logos/zuckermans-bbq-logo.jpg",
+      "motto": "That's 'Some' BBQ, Since 1952"
     },
     {
       "name": "John",
@@ -68,7 +72,8 @@
       "position": "Owner",
       "cellphone": "(123)555-9087",
       "membershiplevel": "gold",
-      "imageurl": "images/logos/johns-excavting-logo-black.png"
+      "imageurl": "images/logos/johns-excavting-logo-black.png",
+      "motto": "We dig it!"
     },
     {
       "name": "Jane",
@@ -82,7 +87,8 @@
       "position": "President",
       "cellphone": "(123)555-4321",
       "membershiplevel": "gold",
-      "imageurl": "images/logos/old-lady-welch-logo.png"
+      "imageurl": "images/logos/old-lady-welch-logo.png",
+      "motto": "That is what they say!"
     },
     {
       "name": "Charlotte",
@@ -96,7 +102,8 @@
       "position": "CEO",
       "cellphone": "(123)555-2604",
       "membershiplevel": "gold",
-      "imageurl": "images/logos/bacon-city-logo.png"
+      "imageurl": "images/logos/bacon-city-logo.png",
+      "motto": "Buy 9 pounds, get the 10th for one penny."
     },
     {
       "name": "Inigo",
@@ -110,7 +117,8 @@
       "position": "owner",
       "cellphone": "(123)555-5555",
       "membershiplevel": "bronze",
-      "imageurl": "images/logos/montoyas-quest-logo.png"
+      "imageurl": "images/logos/montoyas-quest-logo.png",
+      "motto": ""
     },
     {
       "name": "Norman",
@@ -124,7 +132,8 @@
       "position": "owner",
       "cellphone": "(123)555-4567",
       "membershiplevel": "bronze",
-      "imageurl": "images/logos/rooms-to-stay-logo.png"
+      "imageurl": "images/logos/rooms-to-stay-logo.png",
+      "motto": ""
     },
     {
       "name": "John",
@@ -138,7 +147,8 @@
       "position": "owner",
       "cellphone": "(123)555-1324",
       "membershiplevel": "silver",
-      "imageurl": "images/logos/just-amburgers-logo.png"
+      "imageurl": "images/logos/just-amburgers-logo.png",
+      "motto": ""
     },
     {
       "name": "Ray",
@@ -152,7 +162,8 @@
       "position": "General Manager",
       "cellphone": "(123)555-7321",
       "membershiplevel": "silver",
-      "imageurl": "images/logos/venturas-pet-service-logo.png"
+      "imageurl": "images/logos/venturas-pet-service-logo.png",
+      "motto": ""
     },
     {
       "name": "Jack",
@@ -166,7 +177,8 @@
       "position": "owner",
       "cellphone": "(123)555-8411",
       "membershiplevel": "bronze",
-      "imageurl": "images/logos/jacks-doe-nuts-logo.png"
+      "imageurl": "images/logos/jacks-doe-nuts-logo.png",
+      "motto": ""
     }
   ]
 }
