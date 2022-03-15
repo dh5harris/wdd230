@@ -42,6 +42,7 @@ fetch(apiURL)
     wind.textContent = windSpeed.toFixed();
 
     // To check for the windchill
+    let windchill = '';
     if (currentTemp <= 50 && windSpeed > 3) {
       windchill = windChill(currentTemp, windSpeed);
       windchill = `${windchill}&#176;F`;
