@@ -15,7 +15,8 @@
   }
 
   /* --- form styling */
-  .join-page {
+  .join-page,
+  .contact-page {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
@@ -25,10 +26,11 @@
     display: none;
   }
 
-  .membership-levels {
+  .membership-levels,
+  .chamber-info {
     margin: 0.75rem auto;
     display: block;
-    width: 100%;
+    width: 95%;
   }
 
   /* --- form styling end --- */

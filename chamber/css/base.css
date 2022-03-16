@@ -45,9 +45,15 @@ form {
   width: 100%;
 }
 
-.join-header {
+.join-header,
+.contact-header {
   max-width: 70em;
   margin: 0 auto;
+  text-align: center;
+}
+
+.chamber-map {
+  margin: 5px auto;
   text-align: center;
 }
 
@@ -92,6 +98,16 @@ label {
 .membership {
   padding-top: 1.2rem;
 }
+
+.chamber-info {
+  border: 2px solid rgba(191, 190, 197, 1);
+  margin: 4px 0;
+}
+
+.chamber-address p {
+  margin: 0;
+}
+
 fieldset {
   border: 2px solid rgba(191, 190, 197, 1);
 }
@@ -109,8 +125,14 @@ fieldset {
   display: none;
 }
 
-.membership-levels p {
-  padding: 0.8rem;
+.membership-levels p,
+.chamber-info {
+  padding: 0.5rem;
+}
+
+.chamber-info h3,
+h4 {
+  padding-left: 0;
 }
 
 textarea {
