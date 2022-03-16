@@ -6,7 +6,6 @@ fetch(resquestURL)
     return repsone.json();
   })
   .then(function (jsonObject) {
-    console.log(jsonObject)
     const businesses = jsonObject['businesses'];
     let gold = businesses.filter(businesses => (businesses.membershiplevel === 'gold'));
     for (i=0; i<3; i++) {
@@ -14,8 +13,6 @@ fetch(resquestURL)
       displaySpotight(gold[x], `spot${i+1}`);
       gold = gold.filter(business => (business.name != gold[x].name));
     }
-
-    // businesses.forEach(displaySpotight);
   });
 
   function displaySpotight(business, spot) {
