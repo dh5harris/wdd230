@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to the Paducah Chamber of Commerce"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="favcion.ico" />
+    <title>Welcome to the Paducah Chamber of Commerce.</title>
+  </head>
+  <body>
+    <a href="#main-content" id="skip-nav" class="screenreader-text"
+      >Skip to Content</a
+    >
+    <header>
+      <div class="heading">
+        <nav class="menu">
+          <button class="hambugerBtn" type="button">
+            <span>&#9776;</span><span>&#10060;</span>
+          </button>
+          <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="logoBox">
+          <a href="index.html">
+            <img
+              src="images/chamberlogo.webp"
+              alt="Paducah Chamber of Commerce logo"
+              width="90"
+          /></a>
+          <h1>Paducah Chamber<span class="small"> of Commerce</span></h1>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/"
+            ><img
+              src="images/icons8-facebook-48.png"
+              alt="Facebook logo"
+              width="40"
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img
+              src="images/icons8-linkedin-48.png"
+              alt="Linkedin logo"
+              width="40"
+          /></a>
+        </div>
+      </div>
+      <div class="today">
+        <span id="today">date</span>
+      </div>
+    </header>
+    <main class="thank-you">
+      <picture>
+        <img src="images/received.png" alt="Message received" />
+      </picture>
+      <div class="welcome">
+        <p class="big">We got your message!</p>
+        <p class="glad">
+          Thanks for asking your question. We will get back to you shortly.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="address">
+          <div class="logo">
+            <img
+              src="images/chamberlogo.webp"
+              alt="Paducah Chamber of Commerce logo"
+              width="150"
+            />
+          </div>
+          <address class="addressBox">
+            <p>Paducah Chamber of Commerce</p>
+            <p>300 S 3rd Street</p>
+            <p>Paducah, KY 42003</p>
+          </address>
+        </div>
+        <div class="map">
+          <p>info@paducahchamber.org</p>
+          <p>(270) 443-1746</p>
+          <p></p>
+          <a href="https://goo.gl/maps/C6J38FQAvhYHXqUcA"
+            >&#128204; Location Map</a
+          >
+        </div>
+      </div>
+      <div class="assignmentFooter">
+        <p>
+          &copy; <span id="currentyear">2022?</span> Paducah Chamber of
+          Commerce<span class="small"> |</span>
+        </p>
+        <p><strong>Daniel W. Harris</strong><span class="small"> |</span></p>
+        <p>WDD 230 Project <span class="small"> |</span></p>
+        <p>Last updated: <span id="lastupdate">By the due date</span></p>
+      </div>
+    </footer>
+    <script src="js/hamburgerButton.js"></script>
+    <script src="js/date.js"></script>
+  </body>
+</html>
