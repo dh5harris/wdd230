@@ -27,7 +27,7 @@ fetch(resquestURL)
     phone.textContent = `${business.cellphone}`;
     website.innerHTML = `${business.website}`;
 
-    website.setAttribute('href', `${business.website}`)
+    website.setAttribute('href', '#')
 
     // Set the img attributes for the logos
     logo.setAttribute('src', business.imageurl);
