@@ -17,7 +17,6 @@ fetch(resquestURL)
 
   function displaySpotight(business, spot) {
     // Create elements for spotlight boxes
-    console.log(spot)
     let spotlightBox = document.createElement('div');
     spotlightBox.classList.add('placeholderBox', 'spotlightBox', `${spot}`)
     let spotlightSection = document.createElement('section');
@@ -32,7 +31,6 @@ fetch(resquestURL)
     // Add textContent property to fill spotlight boxes
     businessName.textContent = `${business.businessname}`;
     motto.textContent = `${business.motto}`;
-    console.log(business.motto)
     email.textContent = `${business.email}`;
     phone.textContent = `Phone: ${business.cellphone}`;
 
@@ -47,7 +45,7 @@ fetch(resquestURL)
     info.appendChild(email);
     info.appendChild(phone);
 
-    // Add the spotlightBoxMain div 
+    // Add the two sections to the spotlightBoxMain div    
     spotlightBox.appendChild(spotlightSection);
     spotlightBox.appendChild(info);
 
