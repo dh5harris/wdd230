@@ -8,7 +8,6 @@ const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=Paducah,ky,us&
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    // console.log(jsObject);
 
     // create an img element to hold the weather icon
     const icon = document.createElement('img');
