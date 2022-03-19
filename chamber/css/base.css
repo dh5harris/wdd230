@@ -386,7 +386,6 @@ input[type="radio"] {
 
 .event a {
   text-decoration: none;
-  color: blue;
 }
 
 .join h2 {
@@ -435,6 +434,10 @@ input[type="radio"] {
 
 .weather p {
   margin: 0.5rem;
+}
+
+.weather-link {
+  text-decoration: none;
 }
 
 .icon {
