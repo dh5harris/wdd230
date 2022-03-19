@@ -43,6 +43,7 @@ footer {
 form {
   margin: 0.75rem auto;
   width: 100%;
+  background-color: rgba(234, 232, 255, 1);
 }
 
 .join-header,
@@ -102,6 +103,7 @@ label {
 .chamber-info {
   border: 2px solid rgba(191, 190, 197, 1);
   margin: 4px 0;
+  background-color: rgba(234, 232, 255, 1);
 }
 
 .chamber-address p {
@@ -123,6 +125,7 @@ fieldset {
   border: 2px solid rgba(191, 190, 197, 1);
   margin: 4px 0;
   display: none;
+  background-color: rgba(234, 232, 255, 1);
 }
 
 .membership-levels p,
