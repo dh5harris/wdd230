@@ -516,6 +516,7 @@ input[type="radio"] {
 
 .hambugerBtn a {
   text-decoration: none;
+  color: rgba(45, 49, 66, 1);
 }
 
 .hambugerBtn span:nth-child(1) {
