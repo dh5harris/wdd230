@@ -256,7 +256,7 @@ input[type="radio"] {
 }
 
 .screenreader-text:focus {
-  color: black;
+  color: rgba(45, 49, 66, 1);
   display: inline-block;
   height: auto;
   width: auto;
