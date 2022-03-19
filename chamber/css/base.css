@@ -235,7 +235,7 @@ input[type="radio"] {
 
 .heading {
   display: grid;
-  grid-template-columns: 80px auto;
+  grid-template-columns: 90px auto;
   align-items: center;
 }
 
@@ -512,6 +512,10 @@ input[type="radio"] {
   border: none;
   background-color: transparent;
   font-size: 1.5em;
+}
+
+.hambugerBtn a {
+  text-decoration: none;
 }
 
 .hambugerBtn span:nth-child(1) {
