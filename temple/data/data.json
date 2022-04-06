@@ -13,7 +13,6 @@
       "announced":"9 November 1994",
       "groundbreaking":"13 March 1999",
       "dedicated":"21 May 2000",
-      "Rededicated": "",
       "imageurl":"images/nashville-temple.jpg"
     },
     {
@@ -29,7 +28,6 @@
       "announced":"29 December 1990",
       "groundbreaking":"30 October 1993",
       "dedicated":"1 June 1997",
-      "Rededicated": "",
       "imageurl":"images/st-louis-temple.jpg"
     },
     {
@@ -45,7 +43,6 @@
       "announced":"14 August 1967",
       "groundbreaking":"15 June 1969",
       "dedicated":"9 February 1972",
-      "Rededicated": "",
       "imageurl":"images/provo-temple-night.jpg"
     },
     {
@@ -58,10 +55,9 @@
       "clothing":"Clothing rental available",
       "housing":"No patron housing available",
       "distribution":"No distribution center nearby",
-      "Announced":"6 October 1876",
-      "Groundbreaking":"18 May 1877",
-      "Dedicated":"17 May 1884",
-      "Rededicated": "13 March 1979",
+      "announced":"6 October 1876",
+      "groundbreaking":"18 May 1877",
+      "dedicated":"17 May 1884",
       "imageurl":"images/logan-temple.jpg"
     },
     {
@@ -74,10 +70,9 @@
       "clothing":"Clothing rental available",
       "housing":"No patron housing available",
       "distribution":"Distribution center nearby",
-      "Announced":"6 March 1937",
-      "Groundbreaking":"22 September 1951",
-      "Dedicated":"11 March 1956",
-      "Rededicated": "",
+      "announced":"6 March 1937",
+      "groundbreaking":"22 September 1951",
+      "dedicated":"11 March 1956",
       "imageurl":"images/los-angeles-temple.jpg"
     },
     {
@@ -90,10 +85,9 @@
       "clothing":"Clothing rental available",
       "housing":"No patron housing available",
       "distribution":"Distribution center nearby",
-      "Announced":"3 February 1978",
-      "Groundbreaking":"9 June 1979",
-      "Dedicated":"16 November 1981",
-      "Rededicated": "20 May 2018",
+      "announced":"3 February 1978",
+      "groundbreaking":"9 June 1979",
+      "dedicated":"16 November 1981",
       "imageurl":"images/jordan-river-temple-night.jpg"
     }
   ]
