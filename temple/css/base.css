@@ -50,6 +50,10 @@ header, footer {
   display: block;
 }
 
+.btn:hover {
+  background-color: #ffffff;
+}
+
 /* Hamburger Menu */
 .navigation {
   margin: 0;
