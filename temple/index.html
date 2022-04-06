@@ -42,7 +42,7 @@
       <nav class="menu">
         <ul class="navigation">
           <li>&#9776; Menu</li>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li class="active"><a href="index.html">Home</a></li>
           <li><a href="temple.html">Temple</a></li>
           <li><a href="reservation.html">Reservation</a></li>
           <li><a href="services.html">Services</a></li>
@@ -50,34 +50,114 @@
       </nav>
     </header>
     <main>
-      <div class="hero"></div>
-      <div class="temple"></div>
-      <div class="weather">
-        <div class="current-weather"></div>
-        <div class="three-day"></div>
-      </div>
+      <section class="hero spot">
+        <picture>
+          <source
+            media="(min-width: 720px)"
+            srcset="images/house-of-the-lord-large.jpg"
+          />
+          <img
+            src="images/house-of-the-lord.jpg"
+            alt="The House of the Lord image"
+          />
+        </picture>
+        <h2 class="btn">
+          <a href="reservation.html">Plan your stay</a>
+        </h2>
+        <p>
+          Need a place to stay while visiting the temple? We are her to take
+          care of you. We offer accomodations and several services to meet you
+          needs. Planning a youth temple trip, need a place for a wedding
+          reception, or even child care services while attending the temple?
+          These are some of the services that we offer. Make your reservation
+          today.
+        </p>
+      </section>
+      <section class="temple spot">
+        <picture>
+          <img
+            src="images/st-louis-temple.jpg"
+            alt="The St. Louis Missouri Temple"
+          />
+        </picture>
+        <p>
+          The St. Louis Missouri Temple located in the St. Louis suburb of Town
+          and Country near the junction of I-64 and I-270. The St. Louis temple
+          was the first temple built in Missouri even though three temple sites
+          have been dedicated in the 1830's. It is the 50th temple that is
+          dedicated and still in use, minus the temples under renovations.
+        </p>
+      </section>
+      <section class="weather spot">
+        <div class="current-weather">
+          <h3>Current Weather</h3>
+        </div>
+        <div class="forecast">
+          <h3>Three day Forecast</h3>
+          <div class="three-day">
+            <div class="day-one day"></div>
+            <div class="day-two day"></div>
+            <div class="day-three day"></div>
+          </div>
+        </div>
+      </section>
+
       <div class="info"></div>
-      <footer>
-        <address>
-          <p>Temple Inn and Suites</p>
-          <p>4800 Montgomery Ln #300</p>
-          <p>Bethesda, MD 20814</p>
-        </address>
-        <div class="map"></div>
-        <div class="contact"></div>
+    </main>
+    <footer>
+      <div class="contact-footer">
+        <div class="contact">
+          <address>
+            <p>Temple Inn and Suites</p>
+            <p>4800 Montgomery Ln #300</p>
+            <p>Bethesda, MD 20814</p>
+          </address>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019701323!2d-77.09772048464716!3d38.98325177955754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1648854517427!5m2!1sen!2sus"
+            width="200"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="contact-button">
+          <a href="contact.html">Contact Us</a>
+        </div>
         <div class="social">
           <a href="https://facebook.com"
-            ><img src="images/facebook-icon.png" alt="Facebook Logo"
+            ><img
+              src="images/facebook-icon.png"
+              alt="Facebook Logo"
+              width="40px"
           /></a>
           <a href="https://instagram.com"
-            ><img src="images/instagram-icon.png" alt="Instagram Logo"
+            ><img
+              src="images/instagram-icon.png"
+              alt="Instagram Logo"
+              width="40px"
           /></a>
           <a href="https://twitter.com"
-            ><img src="images/twitter logo.png" alt="Twitter Logo"
+            ><img src="images/twitter logo.png" alt="Twitter Logo" width="40px"
           /></a>
         </div>
-      </footer>
-    </main>
+      </div>
+      <div class="info-footer">
+        <p>
+          &copy; <span id="currentyear">2022?</span> Temple Inn and Suites<span
+            class="small"
+          >
+            |</span
+          >
+        </p>
+        <p>Daniel W. Harris<span class="small"> |</span></p>
+        <p>WDD 230 Project <span class="small"> |</span></p>
+        <p>Last updated: <span id="lastupdate">By the due date</span></p>
+      </div>
+    </footer>
     <script src="js/hamburgerButton.js"></script>
     <script src="js/weather.js"></script>
   </body>
