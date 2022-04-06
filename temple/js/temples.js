@@ -23,6 +23,8 @@ fetch(requestURL)
     let servicesList = document.createElement('ul');
     let history = document.createElement('p');
     let historyList = document.createElement('ul');
+    let likeBtn = document.createElement('button');
+    likeBtn.classList.add('btn', 'like')
 
 
     // Add the textContent property to fill the temple cards
@@ -33,7 +35,7 @@ fetch(requestURL)
     servicesList.innerHTML = `<li>${temples.clothing}</li><li>${temples.housing}</li><li>${temples.distribution}</li>`;
     history.textContent = `Some temple history:`;
     historyList.innerHTML = `<li>Announced - ${temples.announced}</li><li>Groundbreaking - ${temples.groundbreaking}</li><li>Dedicated - ${temples.dedicated}</li>`;
-    console.log(`${temples.announced}`);
+    likeBtn.textContent = `Like`;
 
     // set the img attributes for the images
     templeImage.setAttribute('src', temples.imageurl);
@@ -49,8 +51,22 @@ fetch(requestURL)
     card.appendChild(servicesList);
     card.appendChild(history);
     card.appendChild(historyList);
+    card.appendChild(likeBtn);
 
-    // add 
+    // add cards to the templeCards div 
     templeCards.appendChild(card);
-
+    
+    likeBtn.addEventListener('click', () => {likeBtn.classList.toggle('liked')}, false);
+    // localStorage.setItem('liked');
+    
   }
+
+  function likedButton() {
+    let likedBtn = document.querySelector('liked');
+    // if 
+    localStorage.setItem('liked');
+  }
+
+
+
+
