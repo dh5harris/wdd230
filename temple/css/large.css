@@ -17,4 +17,9 @@
   .info-footer p {
     display: inline;
   }
+  /* services page */
+  .offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
