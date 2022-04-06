@@ -46,6 +46,98 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <form action="reservation-made.html" method="get">
+        <h2 class="header spot pad">When do you need stay?</h2>
+
+        <fieldset class="spot">
+          <legend><h3>Hotel Infomation</h3></legend>
+          <label
+            >Location*<select class="input" name="location" required>
+              <option value="" disabled selected hidden>Choose a location</option>
+              <option value="nashville">Nashville</option>
+              <option value="st.louis">St. Louis</option>
+              <option value="provo">Provo</option>
+              <option value="logan">Logan</option>
+              <option value="los-angeles">Los Angeles</option>
+              <option value="jordan-river">Jordan Rvier</option>
+            </select>
+        </label>
+          <label
+            >Check-in Date*<input class="input" type="date" name="check-in" required
+          /></label>
+          <label
+            >Check-out Date*<input class="input" type="date" name="check-out" required
+          /></label>
+          <p>Room type*</p>
+          <label class="radio"
+            ><input type="radio" name="room" value="king" required
+          />  King - 1 bed</label>
+          <label class="radio"
+            ><input type="radio" name="room" value="queen" required
+          /> Queen - 2 beds</label>
+          <label class="radio"
+            ><input type="radio" name="room" value="king-suite" required
+          /> King Suite - 1 bed w/ kitchenette</label>
+          <label class="radio"
+            ><input type="radio" name="room" value="queen-suite" required
+          /> Queen Suite - 2 beds w/ kitchenette</label>
+          <label>
+            Number of guests <input type="number" name="number" min="1" max="4" value="1">
+          </label>
+
+
+          <legend><h3>Guest Infomation</h2></legend>
+          <label
+            >First Name*<input class="input" type="text" name="fname" required
+          /></label>
+          <label
+            >Last Name*<input class="input" type="text" name="lname" required
+          /></label>
+          <label
+            >Street Address*<input class="input" type="text" name="address" required
+          /></label>
+          <label
+            >City*<input class="input" type="text" name="city" required
+          /></label>
+          <label
+            >State*<input class="input" type="text" name="state" required
+          /></label>
+          <label
+            >Country*<input class="input" type="text" name="country" required
+          /></label>
+          <label
+            >Zip Code*<input class="input" type="text" name="zipcode" required
+          /></label>
+          <label
+            >Email*<input
+              class="input"
+              type="email"
+              name="email"
+              placeholder="your@email.com"
+              required
+          /></label>
+
+          <label>Phone Number*<input
+              class="input"
+              type="tel"
+              name="phone"
+              placeholder="(xxx)xxx-xxxx"
+              required
+          /></label>
+          <label
+            >Do you need any special accommodations or have questions?
+            <textarea
+              class="input"
+              name="description"
+              cols="30"
+              rows="10"
+            ></textarea>
+
+            <input class="btn" type="submit" value="Make your reservation" />
+        </fieldset>
+      </form>
+    </main>
     <footer>
       <div class="contact-footer">
         <div class="contact">
