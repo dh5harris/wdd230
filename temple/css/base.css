@@ -256,7 +256,7 @@ footer {
   border-radius: 10px;
 }
 
-/* form */
+/* forms */
 
 label {
   padding: 0.8rem;
@@ -275,8 +275,22 @@ label {
   border: 2px solid red;
 }
 
+.input:required:valid {
+  border: 2px solid #c1c1c1;
+}
+
 form .btn {
   padding: .8rem;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  vertical-align: bottom;
+}
+
+.radio {
+  padding: .6rem;
 }
 
 /* thank-you page */
@@ -300,3 +314,22 @@ form .btn {
   height: auto;
   border-radius: 5px;
 }
+
+/* like button */
+.like {
+  background-color: #cfb600;
+  padding: 0.5rem;
+  font-size: 1.1rem
+}
+
+.like:hover {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+.liked {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+
