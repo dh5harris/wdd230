@@ -13,6 +13,36 @@ h3 {
   font-family: "Open Sans", sans-serif;
 }
 
+header, footer {
+  background-color: #89decc;
+  box-shadow: 5px 5px 5px 2px #c1c1c1;
+}
+
+.spot {
+  margin-top: .8rem;
+  background-color: #eee;
+  border: 1px solid #cfb600;
+  box-shadow: 5px 5px 5px 2px #c1c1c1;
+}
+
+.pad {
+  padding: 0 .8rem;
+}
+
+.service {
+  background-color: #8bbcef;
+  padding: .8rem;
+}
+
+.btn {
+  margin: 0;
+  display: block;
+  text-align: center;
+  background-color: #8bbcef;
+  border-radius: 10px;
+  border: 1px solid #cfb600;
+}
+
 /* Hamburger Menu */
 .navigation {
   margin: 0;
@@ -21,14 +51,32 @@ h3 {
 }
 
 .navigation li {
-  margin: 0 10px;
   display: none;
   cursor: pointer;
 }
 
+.navigation a {
+  color: black;
+  display: block;
+  padding: 0.8rem;
+  border-bottom: 2px solid #cfb600;
+}
+
+.navigation a:hover {
+  background-color: #eee;
+}
+
+.navigation li {
+  padding: 0;
+  margin: 0;
+}
+
 .navigation li:nth-child(1) {
   display: block;
+  border-bottom: 2px solid #cfb600;
+  padding: 0.8rem;
 }
+
 
 /* Hamburger Menu responsive */
 .responsive li {
@@ -36,6 +84,14 @@ h3 {
 }
 
 /* Menu */
+.menu a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #c1c1c1;
+  display: block;
+}
 
 /* Weather alert banner */
 #weather-alert {
@@ -63,11 +119,165 @@ h3 {
 /* Logo and heading */
 .logo-box {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 0.8rem;
+}
+
+
+/* hero section */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero p {
+  padding: .8rem;
+}
+
+.action-call a {
+  text-decoration: none;
+  display: block;
+  padding: .8rem;
+  color: black;
+}
+
+/* temple section */
+
+.temple img{
+  width: 100%;
+  height: auto;
+  box-shadow: 5px 5px 5px 2px #c1c1c1;
+}
+
+.temple p {
+  padding: .8rem;
+  margin: 0;
+}
+
+/* weather */
+.weather {
+  display: grid;
+  gap: 1px;
+  background-color: #cfb600;
+}
+
+.weather h3 {
+  text-align: center;
+  border-bottom: 1px solid #cfb600;
+  margin: 0 auto;
+  padding: .8rem;
+  width: 70%;
+}
+
+.weather p {
+  font-size: 14px;
+  margin: 0.8rem 0;
+}
+
+.current-weather {
+  text-align: center;
+  background-color: #eee;
+  width: 100%;
+}
+
+.three-day {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.day {
+  text-align: center;
+}
+
+.description {
+  font-size: 12px;
+}
+
+.forecast {
+  
+  background-color: #eee;
+}
+
+.forcast {
+  display: flex;
+  justify-content: center;
 }
 
 /* footer */
 footer {
+  margin-top: .8rem;
+  padding: .8rem 0;
+  text-align: center;
+  /* display: block; */
+}
+
+.social img {
+  padding-right: 0.5rem;
+}
+
+.social a {
+  display: inline-block;
+  margin-top: .8rem;
+}
+
+.info-footer {
+  padding-top: 0.8rem;
+}
+
+.info-footer p {
+  font-size: 0.75rem;
+}
+
+.small {
+  display: none;
+}
+
+.map {
+  padding: 0.8rem;
+}
+
+.contact-button {
+  display: inline-block;
+  margin: .8rem;
+}
+
+.contact-button a {
+  border: 1px solid #cfb600;
+  padding: .8rem;
+  background-color: #8bbcef;
+  color: black;
+  text-decoration: none;
+}
+
+/* form */
+
+label {
+  padding: 0.8rem;
+  display: block;
+}
+
+.input {
+  display: block;
+  width: 95%;
+  padding: .5rem;
+  border: 2px solid #c1c1c1;
+  border-radius: 5px;
+}
+
+.input:required {
+  border: 2px solid red;
+}
+
+form .btn {
+  padding: .8rem;
+}
+
+/* thank-you page */
+.thanks {
   text-align: center;
 }
