@@ -281,3 +281,17 @@ form .btn {
 .thanks {
   text-align: center;
 }
+
+/* temple page */
+.temple-cards {
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-items: center;
+  gap: 1em;
+}
+
+.temple-cards img {
+  width: 100%;
+  height: auto;
+}
