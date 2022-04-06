@@ -29,7 +29,7 @@ header, footer {
   padding: 0 .8rem;
 }
 
-.service {
+.header {
   background-color: #8bbcef;
   padding: .8rem;
 }
@@ -283,6 +283,8 @@ form .btn {
 }
 
 /* temple page */
+
+
 .temple-cards {
   margin: 10px auto;
   display: grid;
@@ -294,4 +296,5 @@ form .btn {
 .temple-cards img {
   width: 100%;
   height: auto;
+  border-radius: 5px;
 }

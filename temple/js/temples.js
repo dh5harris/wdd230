@@ -15,6 +15,7 @@ fetch(requestURL)
     let card = document.createElement('section');
     card.classList.add('spot', 'pad');
     let templeName = document.createElement('h3');
+    templeName.classList.add('header')
     let templeImage = document.createElement('img');
     let address = document.createElement('p');
     let phone = document.createElement('p');
