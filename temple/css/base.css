@@ -196,6 +196,7 @@ header, footer {
 
 .day {
   text-align: center;
+  padding: 5px;
 }
 
 .description {
