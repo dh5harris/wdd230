@@ -1,8 +1,5 @@
 const info = 'f66666e34de75c8542449d7d4931f7b6';
 
-
-    
-
 // the div that will hold the weather icon and temperature
 const currentConditions = document.querySelector('.current-weather');
 const weatherNotify = document.querySelector('#weather-notify')
@@ -16,10 +13,8 @@ const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=37.08&lon=-8
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    // console.log(jsObject)
-    const alerts = jsObject['alerts'];
 
-    // console.log(alerts)
+    const alerts = jsObject['alerts'];
 
     // Check to see if the weather alerts need to be populated
     if (alerts !== undefined) {
