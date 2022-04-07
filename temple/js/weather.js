@@ -1,12 +1,6 @@
 const info = 'f66666e34de75c8542449d7d4931f7b6';
 
-//Date infomation
-const date = new Date();
-// Display the copyright year
-document.getElementById("currentyear").textContent = date.getFullYear();
 
-// Display when the last time the document was modified
-document.getElementById('lastupdate').textContent = document.lastModified;
     
 
 // the div that will hold the weather icon and temperature
