@@ -8,7 +8,7 @@ const threeDay = document.querySelector('.three-day');
 const dayOne = document.querySelector('.day-one')
 const dayTwo= document.querySelector('.day-two')
 const dayThree = document.querySelector('.day-three')
-const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=37.08&lon=-88.60&units=imperial&APPID=${info}`
+const apiURL = `https://api.openweathermap.org/data/3.0/onecall?lat=37.08&lon=-88.60&units=imperial&APPID=${info}`
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -37,17 +37,17 @@ fetch(apiURL)
     const humidityCurrent = document.createElement('p');
     const descriptionCurrent = document.createElement('p');
     const current = document.createElement('div');
-    // Day one wather
+    // Day one weather
     const iconDayOne = document.createElement('img');
     const tempDayOne = document.createElement('p');
     const descriptionDayOne = document.createElement('p');
     const forecastOne = document.createElement('div');
-    // Day two wather
+    // Day two weather
     const iconDayTwo = document.createElement('img');
     const tempDayTwo = document.createElement('p');
     const descriptionDayTwo = document.createElement('p');
     const forecastTwo = document.createElement('div');
-    // Day three wather
+    // Day three weather
     const iconDayThree = document.createElement('img');
     const tempDayThree = document.createElement('p');
     const descriptionDayThree = document.createElement('p');
@@ -61,6 +61,7 @@ fetch(apiURL)
     const currentWeatherIcon = `https://openweathermap.org/img/w/${jsObject.current.weather[0].icon}.png`;
     const currentHumidity = jsObject.current.humidity;
     const degree = String.fromCodePoint(0x2109);
+		
     // Set variables to three day forecast values
     // First Day
     const firstDayTemp = jsObject.daily[0].temp.max;
